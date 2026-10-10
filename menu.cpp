@@ -35,8 +35,6 @@ Menu::Menu()
 	options.push_back({"Add book", addBook});
 	options.push_back({"Remove book", removeBook});
 	options.push_back({"Quit", quit});
-
-	std::cout << "Menu initialized!\n";
 }
 
 bool Menu::prompt()
